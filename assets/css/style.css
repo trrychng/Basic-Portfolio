@@ -1,0 +1,26 @@
+*{
+	align-content: center;
+}
+
+.top{
+	background-color: teal;
+	height:100px;
+}
+
+.topleft{
+	float=left;
+	background-color: blue;
+	font-size: 35px;
+	width: 10px;
+	color:yellow;
+}
+.topmiddle{
+	float:left;
+	width:10px;
+}
+
+
+.topright{
+	float:left;
+	color:pink;
+}
