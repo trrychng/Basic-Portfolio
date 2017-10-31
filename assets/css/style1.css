@@ -1,16 +1,14 @@
 *{
-	margin: 0px auto;
+	align-content: center;
 }
 
 .top{
 	background-color: teal;
 	/*padding: 40px 40px 35px 43px;*/
-   /*margin: 0px auto;*/
-   width:960px;
-   margin: 0px auto;
+	height:75px;
+	/*position: relative;*/
+	margin:0 auto;
 }
-
-
 
 .topleft{
 	/*position:absolute;*/
@@ -21,20 +19,17 @@
 	padding-right: 30px;
 	padding-left: 30px;
 	font-size: 35px;
-	float:left;
+
 	color:yellow;
 	padding-bottom: 0px;
 }
 .topmiddle{
 	float:left;
-	width:300px;
-	background-color: yellow;
+	width:500px;
 }
 
 .topright{
 	margin-top:15px;
 	float:left;
 	color:pink;	
-
-	background-color: pink;
 }
