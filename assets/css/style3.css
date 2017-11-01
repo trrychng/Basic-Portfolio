@@ -1,0 +1,36 @@
+.top {
+   width: 100%;
+   margin: 0 auto;
+   height: 8%;
+   background-color: white;
+}
+
+.topleft {
+	position: relative;
+	bottom: 0;
+	padding: 5px 20px 5px 20px;
+	/*background-color: blue;*/
+	font-size: 35px;
+	float: left;
+	color: black;
+	width: 28%;
+	text-align: center;
+}
+
+.topmiddle {
+	float: left;
+	height: 73%;
+	padding-top: 12px;
+	width: 33%;
+	/*background-color: yellow;*/
+	text-align: center;
+}
+
+.topright {
+	float: left;
+	color: pink;
+	height: 73%;
+	padding-top: 12px;
+	/*background-color: pink;*/
+	width: 33%;
+	text-align: center;
