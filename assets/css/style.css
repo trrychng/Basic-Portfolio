@@ -4,14 +4,13 @@ body, html {
 	background-color: grey;
 }
 
-
-
 .layer1{
 	background-color: blue;
 	height: 7%;
+	width:100%;
 	position: relative;
 	border-style: solid;
-    border-width: 2px 10px 4px 20px;
+    border-width: 2px 10px 2px 20px;
     border-color: navy;
 }
 
@@ -24,42 +23,38 @@ body, html {
    margin-left: auto;
    margin-right: auto;
    width:1000px;
-   height: 80%;
+   height: 50px;
    border-style: solid;
-   border-width: 2px 10px 4px 20px;
+   border-width: 2px 10px 0px 20px;
    border-color: navy;
 }
 
 
 
 .topleft{
-	/*position:absolute;*/
-	/*bottom: 0;*/
-	/*left: 10%;*/
+	position:absolute;
+	bottom: 0;
+	left:0;
 	background-color: blue;
 	font-size: 35px;
-	float:left;
 	color:yellow;
-	width: 15%;
-	text-align: center;
-	margin: auto
-
 }
+
+/*
 .topmiddle{
 	float:left;
 	width:60%;
 	background-color: yellow;
 }
-
-
-
+*/
 
 .topright{
-	margin-top:15px;
-	float:right;
-	color:pink;	
-	width: 25%;
-	text-align: right;
-
+	position:absolute;
+	bottom: 0;
+	right: 0;
 	background-color: pink;
 }
+
+
+
+
