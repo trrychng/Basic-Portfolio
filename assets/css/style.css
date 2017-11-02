@@ -1,31 +1,33 @@
 body, html {
 	height: 100%;
 	width: 100%;
-	background-color: grey;
+	background-color: #26457F;
 }
 
 .layer1{
-	background-color: blue;
+	background-color: #0046CC;
 	height: 7%;
 	width:100%;
 	position: relative;
 	border-style: solid;
-    border-width: 2px 10px 2px 20px;
-    border-color: navy;
+    border-width: 0px 0px 2px 0px;
+    border-color: black;
+    padding-bottom: 2px;
 }
 
 .top{
    /*padding: 40px 40px 35px 43px;*/
    position: absolute;
+   background-color: #0046CC;
    bottom:0;
    left:0;
    right: 0;
    margin-left: auto;
    margin-right: auto;
-   width:1000px;
+   width:960px;
    height: 50px;
    border-style: solid;
-   border-width: 2px 10px 0px 20px;
+   /*border-width: 2px 0px 0px 20px;*/
    border-color: navy;
 }
 
@@ -35,9 +37,12 @@ body, html {
 	position:absolute;
 	bottom: 0;
 	left:0;
-	background-color: blue;
+	background-color: #26457F;
 	font-size: 35px;
-	color:yellow;
+	color:#4C8AFF;
+    padding: 5px;
+    padding-right: 15px; 
+    padding-left:15px;
 }
 
 /*
@@ -52,9 +57,39 @@ body, html {
 	position:absolute;
 	bottom: 0;
 	right: 0;
-	background-color: pink;
+	background-color: white;
+	padding-top: 3px;
+	padding-right: 13px; 
+    padding-left:13px;
+}
+
+.container{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width:960px;
+	background-color: white;
+	height: 95%;
+
 }
 
 
+.content{
+	position: absolute;
+	top: 5%;
+	left: 0;
+	width:650px;
+	height: 300px;	
+	background-color:pink;
+}
 
 
+.sidebar{
+	position: absolute;
+	top: 5%;
+	right:0;
+	width:270px;
+	height:300px;
+	background-color: black;
+
+}
