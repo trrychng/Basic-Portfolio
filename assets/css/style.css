@@ -225,11 +225,11 @@ p{
 .portdesc{
 	position: absolute;
 	bottom: 0px;
-	background-color: white;
+	background-color: blue;
 	font-family: 'Anton', sans-serif;
 	color: teal;
 	width: 100%;
-	text-align: center;
+	/*text-align: center;*/
 }
 
 
